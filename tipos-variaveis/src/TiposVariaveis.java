@@ -1,10 +1,16 @@
 public class TiposVariaveis {
     public static void main(String[] args) {
-        double salarioMinimo = 2500;
-        System.out.println(salarioMinimo);
-        final int NUM = 10;
-        String meuNome = "Chrysan";
-        
+        SmartTv smartTv = new SmartTv();
+        System.out.println(smartTv.canal);
+        System.out.println(smartTv.ligada);
+        System.out.println(smartTv.volume);
+
+        smartTv.ligar();
+        System.out.println(smartTv.ligada);
+        smartTv.mudarCanal(25);
+        System.out.println(smartTv.canal);
+
+
 
 
     }
